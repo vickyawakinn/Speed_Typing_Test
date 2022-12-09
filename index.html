@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js" defer></script>
+        <title>Speed Typing Game</title>
+    </head>
+    <body>
+        <div class="timer">
+            <div class="time-heading">
+                Time Left : <span class="time-dial">60</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="quoteDisplay">
+                <!-- <span class="blink-cursor"></span> -->
+            </div>
+            <input
+                class="quoteInput"
+                autocapitalize="off"
+                autocomplete="off"
+                autofocus
+            />
+        </div>
+        <div class="btn-restart"><button class="btn">Restart</button></div>
+        <div class="result">
+            <div>
+                <span>Correct Words Typed</span> :
+                <span id="correct_words">40</span>
+            </div>
+            <div>
+                <span>Incorrect Words Typed</span> :
+                <span id="incorrect_words">30</span>
+            </div>
+            <div>
+                <span>Gross Typing Speed</span> :
+                <span id="gross_typing_speed">70</span>
+            </div>
+            <div>
+                <span>Net Typing Speed</span> :
+                <span id="net_typing_speed">80</span>
+            </div>
+            <div><span>Accuracy</span> : <span id="accuracy">90%</span></div>
+            <button class="btn">Take Again</button>
+        </div>
+    </body>
+</html>
